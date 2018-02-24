@@ -1,0 +1,16 @@
+{
+  "name": "cyr2lat",
+  "version": "1.0.2",
+  "description": "Transliterates cyrillic symbols to latin. Can generate urls.",
+  "main": "./dist/cyr2lat.js",
+  "scripts": {
+    "build": "rollup index.js --o ./dist/cyr2lat.js -f umd --name 'cyr2lat'"
+  },
+  "keywords": ["translit", "cyrillic", "latin"],
+  "author": "mxmn",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^0.56.2"
+  }
+}
